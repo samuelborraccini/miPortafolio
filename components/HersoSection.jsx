@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HersoSection = () => {
   return (
@@ -34,17 +35,19 @@ const HersoSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] sm:text-lg lg:text-xl mb-6 text-base ">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            explicabo natus commodi impedit nobis omnis in sit optio quisquam
-            eum, ab, voluptates molestiae quibusdam eos ratione aliquid, autem
-            ad doloribus.
+            ¡Bienvenido a mi portafolio personal! Aquí podrás encontrar un poco
+            de información sobre mis estudios, proyectos en los que he trabajado
+            y mi información de contacto.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full mr-4 bg-gradient-to-br from-blue-500  to-green-500  text-white w-full sm:w-fit">
-              Contratame
-            </button>
-            <button className="px-6 py-3 rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3 w-full sm:w-fit">
-              Descarga mi CV
+              <Link
+                href={"/docs/cv.pdf"}
+                target="blank"
+                download={"SamuelBorracciniCv"}
+              >
+                Descarga mi CV
+              </Link>
             </button>
           </div>
         </motion.div>

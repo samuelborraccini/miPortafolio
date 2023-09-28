@@ -39,8 +39,8 @@ const ContactSection = () => {
           </h2>
           <p className="text-[#ADB7BE] max-w-md lg:text-lg text-sm mb-6">
             Actualmente estoy buscando oportunidades laborales, me puedes
-            contactar mediante mi correo electronico o mis redes de trabajo que
-            aparecen a continuacion. Me comunicare devuelta lo mas pronto
+            contactar mediante mi correo electrónico o mis redes de trabajo que
+            aparecen a continuación. ¡Me comunicaré devuelta lo más pronto
             posible!
           </p>
           <div className="flex gap-2 md:gap-6">

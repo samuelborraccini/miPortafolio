@@ -71,10 +71,10 @@ const ProjectSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2 md:mb-12">
         Mis Proyectos
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-10">
+      <div className="text-white flex flex-row justify-center items-center gap-2 pb-10 ">
         <ProjectTag
           name={"All"}
           onClick={handleSelect}

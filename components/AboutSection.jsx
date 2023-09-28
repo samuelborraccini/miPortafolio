@@ -29,8 +29,8 @@ const TabData = [
     id: "education",
     content: (
       <p>
-        Egresado en el año 2023 como Ingeniero Civil Informatico de la
-        Universidad San Sebastian.{" "}
+        Egresado en el año 2023 como Ingeniero Civil Informático de la
+        Universidad San Sebastián.{" "}
       </p>
     ),
   },
@@ -52,8 +52,8 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Acerca de Mi</h2>
           <p className="text-base lg:text-lg">
-            Soy un desarrollador full stack, egresado de inengria civil
-            informatica. Me apasiona crear aplicativos web interactivos y que
+            Soy un desarrollador full stack, egresado de ingeniería civil
+            informática. Me apasiona crear aplicativos web interactivos y que
             brinden buena experiencia al usuario. Tengo experiencia trabajando
             con javaScript, HTML, CSS, React, NextJs, NodeJs, Sequelize, Git,
             BBDD relacionales y no relacionales. Dispuesto a trabajar en equipo,
@@ -70,7 +70,7 @@ const AboutSection = () => {
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
-              Educacion
+              Educación
             </TabButton>
           </div>
           <div className="mt-8">
