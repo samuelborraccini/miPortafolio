@@ -15,7 +15,7 @@ const ContactSection = () => {
     <>
       <div
         id="contact"
-        className="flex flex-col gap-6 lg:gap-0 lg:justify-between items-top px-20 mb-4"
+        className="flex lg:flex-row flex-col gap-6 lg:gap-0 lg:justify-between items-top px-20 mb-4"
       >
         <div className="relative">
           <div className=" lg:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-500 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute -top-1 right-20 transform -translate-x-1/2 -translate-1/2"></div>
@@ -60,7 +60,7 @@ const ContactSection = () => {
               target="blank"
             >
               <Image
-                src={"/icons/linkedIn.svg"}
+                src={"/icons/linked.svg"}
                 width={32}
                 height={32}
                 className="hover:shadow-blue-500/50 shadow-lg hover:shadow-lg rounded-full duration-300"
