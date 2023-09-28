@@ -13,7 +13,7 @@ const ContactSection = () => {
   };
   return (
     <>
-      <div className="flex justify-between items-top px-20 mb-4">
+      <div id="contact" className="flex justify-between items-top px-20 mb-4">
         <div className="relative">
           <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-green-500 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute -top-1 right-20 transform -translate-x-1/2 -translate-1/2"></div>
           <h2 className="text-4xl font-bold text-white mb-4">Contactame</h2>

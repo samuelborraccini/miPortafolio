@@ -4,7 +4,7 @@ import React from "react";
 function NavLink({ href, title }) {
   return (
     <Link
-      href={`/${href}`}
+      href={href}
       className="block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl roudned
                  md:p-0 hover:text-white"
     >
